@@ -1,5 +1,5 @@
 Users = ->
-  @respondsWith = ['html', 'json', 'js', 'txt', 'blah']
+  @respondsWith = ['html', 'json', 'js', 'txt']
 
   @index = (req, resp, params) ->
     @respond({params: params})
