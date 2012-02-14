@@ -24,6 +24,7 @@ Users = ->
   @remove = (req, resp, params) ->
     @respond({params: params})
 
+  # IMPORTANT! You must return @ as the last line of the function.
   @
 
 exports.Users = Users
